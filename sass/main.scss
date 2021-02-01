@@ -1,0 +1,57 @@
+$myfont: Robot;
+$myfonts: 32px;
+$myfontc: rgb(250, 8, 8);
+$bgc: #fff;
+$bgcb: #000;
+$table_bor_col: #eee;
+$container_width: 700px;
+$first_col_width: 150px;
+
+div.container {
+
+    margin: auto; 
+    font: $myfont;
+    width: $container_width;
+}
+
+table {
+
+    tr:nth-child(odd) {background: $table_row_col}
+
+    td:first-child {width: $first_col_width}
+  
+    th {
+        background-color: $table_head_col;
+    }
+
+    border: 1px solid $table_bor_col;
+}
+
+.carousel {
+    background: $bgc;
+    margin-top: 20px;
+  }
+  .carousel-item {
+    text-align: center;
+    min-height: 280px;
+  }
+  
+  .carousel-control-next-icon {
+    color: $bgcb;
+  }
+  .mov {
+    background-color: $bgcb;
+  }
+  .sky {
+    font-style: italic;
+    font-weight: bolder;
+    color: $myfontc;
+    font-size: $myfonts;
+    font-family: $myfont;
+  }
+  .skyo {
+    color: gray;
+  }
+  .link-main{
+    background-color: $bgc;
+  }

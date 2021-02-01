@@ -1,0 +1,1 @@
+Digite "Gulp" no terminal para iniciar o projeto.
